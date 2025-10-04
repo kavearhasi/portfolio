@@ -1,32 +1,38 @@
-import React from 'react';
-import { ExternalLink, Calendar, ArrowRight } from 'lucide-react';
+import React from "react";
+import { ExternalLink, Calendar, ArrowRight } from "lucide-react";
 
 const Blog = () => {
   const blogPosts = [
     {
-      title: "Building Reactive UIs with Jetpack Compose State Management",
-      snippet: "A deep dive into using Jetpack Compose State Management for building reactive UIs that respond seamlessly to data changes...",
-      image: "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=800",
-      date: "Dec 15, 2024",
-      readTime: "8 min read",
-      link: "https://dev.to/kavearhasi_viswanathan"
+      title: "Your Sealed Class Cookbook: 3 Production-Ready Android Recipes",
+      snippet:
+        "we've explored the theory and power of Kotlin's sealed hierarchies. We've seen how they help us escape common pitfalls and how the compiler can become our safety net...",
+      image:
+        "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3t6tqr3vvmu3c72l04v5.png?auto=compress&cs=tinysrgb&w=800",
+      date: "Sep 30, 2025",
+      readTime: "5 min read",
+      link: "https://dev.to/kavearhasi_viswanathan/your-sealed-class-cookbook-3-production-ready-android-recipes-2l3o",
     },
     {
-      title: "Why My Web Development Background Made Me a Better Android Engineer",
-      snippet: "Exploring how my foundation in full-stack web development provided unique insights and advantages in mobile development...",
-      image: "https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=800",
-      date: "Nov 28, 2024",
+      title: "Kotlin’s Sealed Interfaces: Smashing the Inheritance Wall",
+      snippet:
+        "sealed classes still have their limits. And when I hit that wall, sealed interfaces broke it down...",
+      image:
+        "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5hmip81auc4bx24hc5a1.png?auto=compress&cs=tinysrgb&w=800",
+      date: "Sep 28, 2025",
       readTime: "6 min read",
-      link: "https://dev.to/kavearhasi_viswanathan"
+      link: "https://dev.to/kavearhasi_viswanathan/kotlins-sealed-interfaces-smashing-the-inheritance-wall-4n0n",
     },
     {
-      title: "Clean Architecture Patterns in Modern Android Development",
-      snippet: "Best practices for implementing clean architecture in Android apps, with practical examples and real-world use cases...",
-      image: "https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=800",
-      date: "Nov 10, 2024",
-      readTime: "10 min read",
-      link: "https://dev.to/kavearhasi_viswanathan"
-    }
+      title: "Kotlin's Toolbox: Sealed Class vs. Enum vs. Abstract Class",
+      snippet:
+        "Using the wrong tool for the job leads to clunky, frustrating codeUsing the wrong tool for the job leads to clunky, frustrating code. Honestly, learning to make this choice with confidence was a major level-up moment in my career...",
+      image:
+        "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnhb9jbv5a7im82tsfc5r.png?auto=compress&cs=tinysrgb&w=800",
+      date: "Sep 25, 2025",
+      readTime: "6 min read",
+      link: "https://dev.to/kavearhasi_viswanathan",
+    },
   ];
 
   return (
@@ -35,17 +41,18 @@ const Blog = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-[#F5F5F7] mb-6">
-            Sharing the{' '}
+            Sharing the{" "}
             <span className="bg-gradient-to-r from-[#F94800] to-[#FF8A00] bg-clip-text text-transparent">
               Journey
             </span>
             : From My Blog
           </h2>
           <p className="text-xl text-[#BDBDBD] max-w-3xl mx-auto leading-relaxed">
-            I believe that knowledge grows when it's shared. I enjoy breaking down complex topics and 
-            contributing to the developer community by writing articles on{' '}
-            <a 
-              href="https://dev.to/kavearhasi_viswanathan" 
+            I believe that knowledge grows when it's shared. I enjoy breaking
+            down complex topics and contributing to the developer community by
+            writing articles on{" "}
+            <a
+              href="https://dev.to/kavearhasi_viswanathan"
               className="text-[#F94800] hover:text-[#FF8A00] transition-colors font-semibold"
               target="_blank"
               rel="noopener noreferrer"

@@ -28,31 +28,31 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-8 mr-8">
             <button
               onClick={() => scrollToSection('projects')}
-              className="text-[#CCCCCC] hover:text-white transition-colors duration-300 font-medium"
+              className="text-[#CCCCCC]  hover:text-[#F94800] transition-colors duration-300 font-medium"
             >
               Projects
             </button>
             <button
               onClick={() => scrollToSection('blog')}
-              className="text-[#CCCCCC] hover:text-white transition-colors duration-300 font-medium"
+              className="text-[#CCCCCC] hover:text-[#F94800] transition-colors duration-300 font-medium"
             >
               Blog
             </button>
             <button
               onClick={() => scrollToSection('about')}
-              className="text-[#CCCCCC] hover:text-white transition-colors duration-300 font-medium"
+              className="text-[#CCCCCC] hover:text-[#F94800] transition-colors duration-300 font-medium"
             >
               About
             </button>
             <button
               onClick={() => scrollToSection('skills')}
-              className="text-[#CCCCCC] hover:text-white transition-colors duration-300 font-medium"
+              className="text-[#CCCCCC] hover:text-[#F94800] transition-colors duration-300 font-medium"
             >
               Skills
             </button>
             <button
               onClick={() => scrollToSection('contact')}
-              className="text-[#CCCCCC] hover:text-white transition-colors duration-300 font-medium"
+              className="text-[#CCCCCC] hover:text-[#F94800] transition-colors duration-300 font-medium"
             >
               Contact
             </button>
